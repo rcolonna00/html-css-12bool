@@ -16,8 +16,8 @@
 }
 
 .debug .container > [class*="col-"] .container > [class*="col-"]{
-    background-color: mediumpurple;
-    border: 1px solid blue;
+    background-color: rgb(130, 223, 133);
+    border: 1px solid red;
     height: 100%;
 }
 
@@ -150,4 +150,8 @@
 
 .col-offset-12{
     margin-left: calc( ( 100% / 12 ) * 12 );
+}
+
+.padding{
+    padding: 1%;
 }
